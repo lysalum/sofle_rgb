@@ -28,6 +28,7 @@
 // #define EE_HANDS
 
 #define CUSTOM_FONT
+#define FORCE_NKRO
 
 #define CUSTOM_LAYER_READ //if you remove this it causes issues - needs better guarding
 
@@ -49,8 +50,8 @@
 
 
 #ifdef RGB_MATRIX_ENABLE
-#define RGBLED_NUM 35    // Number of LEDs
-#define RGBLED_NUM 35    // Number of LEDs
+#define RGBLED_NUM 36    // Number of LEDs
+#define RGBLED_NUM 36    // Number of LEDs
 #define RGB_MATRIX_LED_COUNT RGBLED_NUM
 #endif
 
@@ -70,7 +71,7 @@
 
     #define RGBLED_NUM 70
 	//#define RGBLED_SPLIT
-	#define RGBLED_SPLIT { 35, 35 } // haven't figured out how to use this yet
+	#define RGBLED_SPLIT { 36, 36 } // haven't figured out how to use this yet
 
 	//#define RGBLED_NUM 30
     #define RGBLIGHT_LIMIT_VAL 120
